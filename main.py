@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from typing import List
 import httpx
 
+import pokemodel
+
 app = FastAPI()
 
 
@@ -19,7 +21,7 @@ async def say_hello(name: str):
 async def team_suggestions(team: List[str]):
     # Use ML model to suggest a Pokémon
     # Fetch data from PokéAPI for detailed suggestions
-    suggestions = your_ml_model.predict(team)
+    suggestions = pokemodel.predict(team)
     detailed_suggestions = [await fetch_pokemon_data(pokemon) for pokemon in suggestions]
     return {"suggestions": detailed_suggestions}
 
