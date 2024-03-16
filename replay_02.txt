@@ -1,0 +1,352 @@
+Processing player: UnprecedentedLaw
+|j|☆puggle wuggle
+|j|☆UnprecedentedLaw
+|t:|1709955549
+|gametype|singles
+|player|p1|puggle wuggle|falkner|1570
+|player|p2|UnprecedentedLaw|alder|1795
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1709955549
+|start
+|switch|p1a: Pack Smoker|Salamence, M|100/100
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p1a: Pack Smoker|Intimidate|boost
+|-unboost|p2a: Suicune|atk|1
+|turn|1
+|
+|t:|1709955555
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1709955558
+|move|p1a: Jolteon|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|56/100
+|move|p2a: Suicune|Hydro Pump|p1a: Jolteon
+|-damage|p1a: Jolteon|21/100
+|
+|-heal|p1a: Jolteon|27/100|[from] item: Leftovers
+|-heal|p2a: Suicune|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1709955564
+|move|p1a: Jolteon|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|20/100
+|move|p2a: Suicune|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|t:|1709955570
+|switch|p1a: Ghostface Killa 👻|Gengar, M|100/100
+|
+|-heal|p2a: Suicune|26/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1709955572
+|move|p1a: Ghostface Killa 👻|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|t:|1709955576
+|switch|p2a: Gengar|Gengar, F|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1709955579
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gengar|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|95/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1709955587
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|15/100
+|switch|p2a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1709955592
+|move|p2a: Claydol|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100 brn
+|move|p1a: Tyranitar|Crunch|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Claydol|44/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|26/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|14/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1709955596
+|switch|p1a: Ghostface Killa 👻|Gengar, M|100/100
+|move|p2a: Claydol|Earthquake|p1a: Ghostface Killa 👻
+|-immune|p1a: Ghostface Killa 👻
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ghostface Killa 👻|94/100|[from] Sandstorm
+|-heal|p1a: Ghostface Killa 👻|100/100|[from] item: Leftovers
+|-heal|p2a: Claydol|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1709955599
+|move|p1a: Ghostface Killa 👻|Ice Punch|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|t:|1709955603
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ghostface Killa 👻|94/100|[from] Sandstorm
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Ghostface Killa 👻|100/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1709955608
+|move|p1a: Ghostface Killa 👻|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|39/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Ghostface Killa 👻
+|-damage|p1a: Ghostface Killa 👻|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ghostface Killa 👻|1/100|[from] Sandstorm
+|-damage|p2a: Zapdos|33/100|[from] Sandstorm
+|-heal|p1a: Ghostface Killa 👻|7/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|39/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1709955614
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|move|p1a: Ghostface Killa 👻|Ice Punch|p2a: Kingdra
+|-damage|p2a: Kingdra|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ghostface Killa 👻|1/100|[from] Sandstorm
+|-damage|p2a: Kingdra|65/100|[from] Sandstorm
+|-heal|p1a: Ghostface Killa 👻|7/100|[from] item: Leftovers
+|-heal|p2a: Kingdra|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1709955619
+|switch|p2a: Gengar|Gengar, F|15/100
+|move|p1a: Ghostface Killa 👻|Explosion|p2a: Gengar
+|-immune|p2a: Gengar
+|faint|p1a: Ghostface Killa 👻
+|
+|t:|1709955622
+|switch|p1a: Pack Smoker|Salamence, M|100/100
+|-ability|p1a: Pack Smoker|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|9/100|[from] Sandstorm
+|-damage|p1a: Pack Smoker|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|15/100|[from] item: Leftovers
+|-heal|p1a: Pack Smoker|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1709955636
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Gengar|Will-O-Wisp|p1a: Skarmory|[miss]
+|-miss|p2a: Gengar|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|9/100|[from] Sandstorm
+|-heal|p2a: Gengar|15/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1709955641
+|move|p2a: Gengar|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Spikes|p2a: Gengar
+|-sidestart|p2: UnprecedentedLaw|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|9/100|[from] Sandstorm
+|-heal|p2a: Gengar|15/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1709955648
+|switch|p2a: Kingdra|Kingdra, F|71/100
+|-damage|p2a: Kingdra|59/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Kingdra
+|-sidestart|p2: UnprecedentedLaw|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kingdra|53/100|[from] Sandstorm
+|-heal|p2a: Kingdra|59/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|82/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1709955650
+|move|p2a: Kingdra|Rain Dance|p2a: Kingdra
+|-weather|RainDance
+|move|p1a: Skarmory|Spikes|p2a: Kingdra
+|-sidestart|p2: UnprecedentedLaw|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingdra|65/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|75/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1709955655
+|switch|p1a: Tyranitar|Tyranitar, F|14/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Kingdra|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1709955657
+|switch|p1a: Pack Smoker|Salamence, M|100/100
+|-ability|p1a: Pack Smoker|Intimidate|boost
+|-unboost|p2a: Kingdra|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pack Smoker|94/100|[from] Sandstorm
+|-damage|p2a: Kingdra|59/100|[from] Sandstorm
+|-heal|p1a: Pack Smoker|100/100|[from] item: Leftovers
+|-heal|p2a: Kingdra|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1709955659
+|move|p1a: Pack Smoker|Dragon Claw|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|t:|1709955664
+|switch|p2a: Gengar|Gengar, F|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|9/100|[from] Sandstorm
+|-damage|p1a: Pack Smoker|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|15/100|[from] item: Leftovers
+|-heal|p1a: Pack Smoker|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1709955668
+|move|p2a: Gengar|Will-O-Wisp|p1a: Pack Smoker
+|-status|p1a: Pack Smoker|brn
+|move|p1a: Pack Smoker|Dragon Claw|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|t:|1709955670
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|-damage|p2a: Dugtrio|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pack Smoker|94/100 brn|[from] Sandstorm
+|-heal|p1a: Pack Smoker|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pack Smoker|88/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1709955674
+|move|p2a: Dugtrio|Rock Slide|p1a: Pack Smoker
+|-supereffective|p1a: Pack Smoker
+|-damage|p1a: Pack Smoker|9/100 brn
+|move|p1a: Pack Smoker|Dragon Claw|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|t:|1709955676
+|switch|p2a: Zapdos|Zapdos|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pack Smoker|3/100 brn|[from] Sandstorm
+|-damage|p2a: Zapdos|33/100|[from] Sandstorm
+|-heal|p1a: Pack Smoker|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Pack Smoker|0 fnt|[from] brn
+|faint|p1a: Pack Smoker
+|-heal|p2a: Zapdos|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1709955678
+|switch|p1a: Metagross|Metagross|100/100
+|turn|21
+|
+|t:|1709955681
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos
+|-activate|p2a: Zapdos|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|33/100|[from] Sandstorm
+|-heal|p2a: Zapdos|39/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1709955684
+|move|p2a: Zapdos|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|36/100
+|move|p1a: Metagross|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|puggle wuggle
+|raw|puggle wuggle's rating: 1570 &rarr; <strong>1601</strong><br />(+31 for winning)
+|raw|UnprecedentedLaw's rating: 1795 &rarr; <strong>1764</strong><br />(-31 for losing)
+|l|☆UnprecedentedLaw
+|player|p2|

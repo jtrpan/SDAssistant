@@ -1,0 +1,492 @@
+Processing player: melle2402
+|j|☆melle2402
+|j|☆Oh gxtgcds
+|t:|1709839100
+|gametype|singles
+|player|p1|melle2402|swimmer|1785
+|player|p2|Oh gxtgcds|1|1676
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1709839100
+|start
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oh gxtgcds)
+|j| mansmcmans
+|
+|t:|1709839104
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Zapdos|Baton Pass|p2a: Zapdos
+|
+|t:|1709839106
+|switch|p2a: Dugtrio|Dugtrio, M|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|2
+|
+|t:|1709839108
+|move|p2a: Dugtrio|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|40/100
+|move|p1a: Celebi|Hidden Power|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|10/100
+|
+|-heal|p1a: Celebi|47/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1709839113
+|move|p2a: Dugtrio|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|t:|1709839114
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1709839120
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Skarmory|Toxic|p2a: Zapdos|[miss]
+|-miss|p1a: Skarmory|p2a: Zapdos
+|
+|upkeep
+|turn|5
+|
+|t:|1709839123
+|move|p2a: Zapdos|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|19/100
+|move|p1a: Skarmory|Spikes|p2a: Zapdos
+|-sidestart|p2: Oh gxtgcds|Spikes
+|
+|-heal|p1a: Skarmory|25/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1709839137
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|73/100
+|
+|-heal|p1a: Zapdos|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1709839139
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Jolteon|88/100|[from] Spikes
+|move|p1a: Zapdos|Toxic|p2a: Jolteon
+|-status|p2a: Jolteon|tox
+|
+|-heal|p2a: Jolteon|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Jolteon|88/100 tox|[from] psn
+|-heal|p1a: Zapdos|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|melle2402 has 120 seconds left.
+|inactive|melle2402 has 90 seconds left.
+|
+|t:|1709839223
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|-heal|p2a: Jolteon|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Jolteon|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1709839229
+|switch|p1a: Zapdos|Zapdos|86/100
+|move|p2a: Jolteon|Baton Pass|p2a: Jolteon
+|
+|t:|1709839234
+|switch|p2a: Porygon2|Porygon2|100/100|[from] Baton Pass
+|-damage|p2a: Porygon2|88/100|[from] Spikes
+|-ability|p2a: Porygon2|Pressure|[from] ability: Trace|[of] p1a: Zapdos
+|
+|-heal|p1a: Zapdos|92/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1709839238
+|move|p1a: Zapdos|Toxic|p2a: Porygon2
+|-status|p2a: Porygon2|tox
+|move|p2a: Porygon2|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p1a: Zapdos|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|92/100 tox|[from] psn
+|-heal|p2a: Porygon2|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1709839244
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Porygon2|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|92/100
+|
+|-heal|p1a: Suicune|98/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1709839250
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Porygon2|Toxic|p1a: Suicune
+|-status|p1a: Suicune|tox
+|
+|-heal|p1a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|94/100 tox|[from] psn
+|-heal|p2a: Porygon2|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|76/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1709839258
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Spikes
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-heal|p1a: Suicune|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1709839262
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Suicune|Roar|p2a: Suicune
+|drag|p2a: Jolteon|Jolteon, M|82/100 tox
+|-damage|p2a: Jolteon|70/100 tox|[from] Spikes
+|
+|-heal|p2a: Jolteon|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Jolteon|70/100 tox|[from] psn
+|-heal|p1a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|76/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1709839268
+|move|p2a: Jolteon|Baton Pass|p2a: Jolteon
+|
+|t:|1709839269
+|switch|p2a: Suicune|Suicune|94/100|[from] Baton Pass
+|-damage|p2a: Suicune|82/100|[from] Spikes
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|58/100
+|
+|-heal|p2a: Suicune|64/100|[from] item: Leftovers
+|-heal|p1a: Suicune|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Suicune|57/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1709839274
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1709839277
+|switch|p1a: Zapdos|Zapdos|92/100 tox
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Zapdos|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|92/100 tox|[from] psn
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1709839284
+|move|p2a: Suicune|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|46/100 tox
+|move|p1a: Zapdos|Roar|p2a: Suicune
+|drag|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Spikes
+|
+|-heal|p2a: Raikou|94/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|53/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|40/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1709839292
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|69/100
+|
+|-heal|p2a: Raikou|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1709839294
+|move|p2a: Raikou|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|60/100
+|move|p1a: Claydol|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|81/100|[from] item: Leftovers
+|-heal|p1a: Claydol|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1709839297
+|switch|p2a: Porygon2|Porygon2|76/100 tox
+|-damage|p2a: Porygon2|64/100 tox|[from] Spikes
+|-ability|p2a: Porygon2|Levitate|[from] ability: Trace|[of] p1a: Claydol
+|move|p1a: Claydol|Earthquake|p2a: Porygon2
+|-immune|p2a: Porygon2
+|
+|-heal|p1a: Claydol|73/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|64/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1709839302
+|switch|p1a: Zapdos|Zapdos|40/100 tox
+|move|p2a: Porygon2|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|24/100 tox
+|
+|-heal|p1a: Zapdos|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|24/100 tox|[from] psn
+|-heal|p2a: Porygon2|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|57/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1709839306
+|switch|p2a: Dugtrio|Dugtrio, M|10/100
+|-damage|p2a: Dugtrio|0 fnt|[from] Spikes
+|faint|p2a: Dugtrio
+|
+|t:|1709839310
+|switch|p2a: Raikou|Raikou|81/100
+|-damage|p2a: Raikou|69/100|[from] Spikes
+|
+|-heal|p2a: Raikou|75/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|18/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1709839324
+|switch|p1a: Claydol|Claydol|73/100
+|move|p2a: Raikou|Hidden Power|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|34/100
+|
+|-heal|p2a: Raikou|81/100|[from] item: Leftovers
+|-heal|p1a: Claydol|40/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1709839335
+|switch|p1a: Skarmory|Skarmory, M|25/100
+|move|p2a: Raikou|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|4/100
+|
+|-heal|p2a: Raikou|87/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|10/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1709839341
+|move|p2a: Raikou|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1709839343
+|switch|p1a: Claydol|Claydol|40/100
+|
+|-heal|p2a: Raikou|93/100|[from] item: Leftovers
+|-heal|p1a: Claydol|46/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1709839345
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Claydol|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p1a: Claydol|52/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1709839354
+|move|p2a: Zapdos|Drill Peck|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|t:|1709839360
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|
+|upkeep
+|turn|29
+|
+|t:|1709839370
+|switch|p2a: Porygon2|Porygon2|57/100 tox
+|-damage|p2a: Porygon2|45/100 tox|[from] Spikes
+|-ability|p2a: Porygon2|Pressure|[from] ability: Trace|[of] p1a: Aerodactyl
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|76/100
+|
+|-heal|p1a: Aerodactyl|82/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|45/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1709839374
+|move|p1a: Aerodactyl|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|27/100 tox
+|move|p2a: Porygon2|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-end|p1a: Aerodactyl|Substitute
+|
+|-heal|p1a: Aerodactyl|88/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|33/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|21/100 tox|[from] psn
+|upkeep
+|turn|31
+|c|☆Oh gxtgcds|Oh I love this set
+|c|☆Oh gxtgcds|So cool
+|
+|t:|1709839388
+|move|p1a: Aerodactyl|Protect|p1a: Aerodactyl
+|-singleturn|p1a: Aerodactyl|Protect
+|move|p2a: Porygon2|Ice Beam|p1a: Aerodactyl
+|-activate|p1a: Aerodactyl|Protect
+|
+|-heal|p1a: Aerodactyl|94/100|[from] item: Leftovers
+|-heal|p2a: Porygon2|27/100 tox|[from] item: Leftovers
+|-damage|p2a: Porygon2|8/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1709839390
+|move|p1a: Aerodactyl|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|t:|1709839394
+|switch|p2a: Raikou|Raikou|93/100
+|-damage|p2a: Raikou|81/100|[from] Spikes
+|
+|-heal|p1a: Aerodactyl|100/100|[from] item: Leftovers
+|-heal|p2a: Raikou|87/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1709839405
+|move|p1a: Aerodactyl|Substitute|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Substitute
+|-damage|p1a: Aerodactyl|76/100
+|move|p2a: Raikou|Thunderbolt|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-end|p1a: Aerodactyl|Substitute
+|
+|-heal|p1a: Aerodactyl|82/100|[from] item: Leftovers
+|-heal|p2a: Raikou|93/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1709839410
+|move|p1a: Aerodactyl|Toxic|p2a: Raikou
+|-status|p2a: Raikou|tox
+|move|p2a: Raikou|Thunderbolt|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|t:|1709839414
+|switch|p1a: Suicune|Suicune|100/100 slp
+|
+|-heal|p2a: Raikou|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Raikou|93/100 tox|[from] psn
+|upkeep
+|turn|35
+|c|☆melle2402|gg
+|
+|t:|1709839419
+|move|p2a: Raikou|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|37/100 slp
+|cant|p1a: Suicune|slp
+|
+|-heal|p2a: Raikou|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Raikou|87/100 tox|[from] psn
+|-heal|p1a: Suicune|43/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1709839422
+|move|p2a: Raikou|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|t:|1709839424
+|switch|p1a: Zapdos|Zapdos|18/100 tox
+|
+|-heal|p2a: Raikou|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Raikou|75/100 tox|[from] psn
+|-heal|p1a: Zapdos|24/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|18/100 tox|[from] psn
+|upkeep
+|turn|37
+|c|☆Oh gxtgcds|Gg
+|
+|t:|1709839428
+|move|p2a: Raikou|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|Oh gxtgcds
+|raw|melle2402's rating: 1785 &rarr; <strong>1759</strong><br />(-26 for losing)
+|raw|Oh gxtgcds's rating: 1676 &rarr; <strong>1702</strong><br />(+26 for winning)

@@ -1,0 +1,516 @@
+Processing player: Mead
+|j|☆Mead
+|j|☆sdfgkjh
+|t:|1710154686
+|gametype|singles
+|player|p1|Mead|pokemonbreeder-gen4|1800
+|player|p2|sdfgkjh|lucas|1611
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|3
+|tier|[Gen 3] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|One Boost Passer Clause: Limit one Baton Passer that has a way to boost its stats
+|rule|Freeze Clause Mod: Limit one foe frozen
+|
+|t:|1710154686
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1710154696
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Brick Break|p1a: Salamence
+|-resisted|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|41/100|[from] Sandstorm
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-heal|p1a: Salamence|47/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆sdfgkjh|1800 ptn
+|c|☆Mead|Ça arrive
+|
+|t:|1710154715
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Salamence|Dragon Claw|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|41/100|[from] Sandstorm
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p1a: Salamence|47/100|[from] item: Leftovers
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1710154723
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|80/100|[from] Sandstorm
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1710154728
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Skarmory|Spikes|p2a: Magneton
+|-sidestart|p2: sdfgkjh|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1710154731
+|move|p2a: Magneton|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|t:|1710154733
+|switch|p1a: Salamence|Salamence, F|47/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Magneton|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|41/100|[from] Sandstorm
+|-heal|p1a: Salamence|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1710154755
+|switch|p2a: Salamence|Salamence, M|94/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Fire Blast|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|41/100|[from] Sandstorm
+|-damage|p2a: Salamence|64/100|[from] Sandstorm
+|-heal|p1a: Salamence|47/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1710154764
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Blissey|Blissey, F|86/100
+|-damage|p2a: Blissey|73/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|67/100|[from] Sandstorm
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1710154772
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1710154774
+|move|p2a: Moltres|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Thunder|p2a: Moltres|[miss]
+|-miss|p1a: Jirachi|p2a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1710154783
+|move|p2a: Moltres|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|3/100
+|move|p1a: Jirachi|Thunder|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|19/100|[from] Sandstorm
+|-heal|p2a: Moltres|25/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|10/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j| Playinatworkphone
+|
+|t:|1710154789
+|move|p2a: Moltres|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|t:|1710154792
+|switch|p1a: Salamence|Salamence, F|47/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Moltres|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|41/100|[from] Sandstorm
+|-damage|p2a: Moltres|19/100|[from] Sandstorm
+|-heal|p1a: Salamence|47/100|[from] item: Leftovers
+|-heal|p2a: Moltres|25/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1710154811
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|88/100|[from] Spikes
+|move|p1a: Salamence|Dragon Claw|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|41/100|[from] Sandstorm
+|-heal|p1a: Salamence|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1710154814
+|move|p1a: Salamence|Fire Blast|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|t:|1710154817
+|switch|p2a: Blissey|Blissey, F|73/100
+|-damage|p2a: Blissey|61/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|41/100|[from] Sandstorm
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|-heal|p1a: Salamence|47/100|[from] item: Leftovers
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1710154821
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1710154826
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1710154831
+|move|p1a: Swampert|Hydro Pump|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|6/100
+|move|p2a: Skarmory|Spikes|p1a: Swampert
+|-sidestart|p1: Mead|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|12/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1710154840
+|move|p2a: Skarmory|Protect|p2a: Skarmory
+|-singleturn|p2a: Skarmory|Protect
+|move|p1a: Swampert|Ice Beam|p2a: Skarmory
+|-activate|p2a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|18/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1710154855
+|move|p1a: Swampert|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1710154857
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1710154869
+|move|p1a: Swampert|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|50/100
+|move|p2a: Metagross|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|-heal|p2a: Metagross|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1710154875
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Swampert|Earthquake|p2a: Metagross
+|-activate|p2a: Metagross|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100 tox|[from] psn
+|-heal|p2a: Metagross|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1710154878
+|switch|p2a: Salamence|Salamence, M|64/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Hydro Pump|p2a: Salamence|[miss]
+|-miss|p1a: Swampert|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|58/100|[from] Sandstorm
+|-heal|p1a: Swampert|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|76/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1710154881
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Swampert|Ice Beam|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|62/100|[from] Sandstorm
+|-heal|p1a: Swampert|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|57/100 tox|[from] psn
+|-heal|p2a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1710154885
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Swampert|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|55/100|[from] Sandstorm
+|-heal|p1a: Swampert|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|33/100 tox|[from] psn
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1710154889
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Swampert|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|54/100|[from] Sandstorm
+|-heal|p1a: Swampert|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|2/100 tox|[from] psn
+|-heal|p2a: Blissey|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1710154892
+|-singleturn|p1a: Swampert|move: Focus Punch
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Swampert|Focus Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|51/100|[from] Sandstorm
+|-heal|p1a: Swampert|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|0 fnt|[from] psn
+|faint|p1a: Swampert
+|-heal|p2a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1710154894
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|turn|26
+|
+|t:|1710154899
+|switch|p2a: Salamence|Salamence, M|58/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|52/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1710154927
+|switch|p2a: Metagross|Metagross|63/100
+|-damage|p2a: Metagross|50/100|[from] Spikes
+|move|p1a: Tyranitar|Rock Slide|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p2a: Metagross|43/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1710154931
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Metagross|Meteor Mash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|16/100
+|-boost|p2a: Metagross|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|22/100|[from] item: Leftovers
+|-heal|p2a: Metagross|49/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1710154941
+|switch|p2a: Salamence|Salamence, M|52/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Earthquake|p2a: Salamence
+|-immune|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|46/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|28/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mead)
+|
+|t:|1710154970
+|move|p1a: Tyranitar|Rock Slide|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|t:|1710154973
+|switch|p2a: Metagross|Metagross|49/100
+|-damage|p2a: Metagross|36/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|34/100|[from] item: Leftovers
+|-heal|p2a: Metagross|42/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1710154979
+|move|p1a: Tyranitar|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1710154982
+|switch|p2a: Blissey|Blissey, F|57/100
+|-damage|p2a: Blissey|45/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|39/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|41/100|[from] item: Leftovers
+|-heal|p2a: Blissey|45/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1710154985
+|move|p1a: Tyranitar|Rock Slide|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|t:|1710154987
+|switch|p2a: Moltres|Moltres|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|19/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|47/100|[from] item: Leftovers
+|-heal|p2a: Moltres|25/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1710154989
+|move|p1a: Tyranitar|Rock Slide|p2a: Moltres|[miss]
+|-miss|p1a: Tyranitar|p2a: Moltres
+|move|p2a: Moltres|Flamethrower|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|19/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|33/100|[from] item: Leftovers
+|-heal|p2a: Moltres|25/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1710154993
+|move|p1a: Tyranitar|Rock Slide|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|win|Mead
+|raw|Mead's rating: 1800 &rarr; <strong>1810</strong><br />(+10 for winning)
+|raw|sdfgkjh's rating: 1611 &rarr; <strong>1601</strong><br />(-10 for losing)
+|c|☆sdfgkjh|gg
+|c|☆Mead|gg
+|l|☆Mead
+|player|p1|

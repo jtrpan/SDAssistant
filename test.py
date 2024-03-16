@@ -1,67 +1,122 @@
 import asyncio
-import csv
 
-from main import fetch_ladder, fetch_match_history, fetch_replay, fetch_pokemon_data
+from pokemon import Pokemon, Team
 
-def define_format(formatName):
-    gen_number = formatName[3]
-    format_type = "OU" if formatName[4:].lower() == 'ou' else formatName[4:].upper()
-    return f"[Gen {gen_number}] {format_type}"
+selected_format = 'gen3ou'
 
-def extract_players(data):
-    return [player.get('username') for player in data.get('toplist', []) if player.get('username')]
 
-def extract_ids(data, desired_format):
-    return [item['id'] for item in data if item['format'] == desired_format]
+async def fetch_game_data(match_number):
+    file_name = f"replay_{match_number:02d}.txt"  # Format the match number properly
+    with open(file_name, 'r') as file:
+        game_log = file.read()  # Read the entire file at once
 
-def extract_pokemon_by_username(game_log, username):
+    username = extract_username(game_log)
+    parse_battle_log(game_log)
+
+    # if username:
+    #     team_details = extract_pokemon(game_log, username)
+    #     pokemons = [
+    #         Pokemon(
+    #             name=pkmn['name'],
+    #             ability=pkmn.get('ability', 'Unknown'),
+    #             item=pkmn.get('item', 'None'),
+    #             moveset=pkmn['moveset']
+    #         ) for pkmn in team_details
+    #     ]
+    #     team = Team(username, pokemons)
+    #     print(team)
+    #     return team
+
+
+def extract_username(log):
+    for line in log.split("\n"):
+        if "Processing player:" in line:
+            return line.split("Processing player:")[1].strip()
+
+
+def extract_pokemon2(game_log, username):
+    player_names = []
+
+    for line in game_log.split("\n"):
+        if "|player|" in line:
+            parts = line.split("|")
+            if len(parts) >= 4:
+                # Append player name to the list
+                player_names.append(parts[3])
+
+    # Ensure we have either one or two player names captured
+    player1_name = player_names[0] if len(player_names) > 0 else "Unknown Player 1"
+    player2_name = player_names[1] if len(player_names) > 1 else "Unknown Player 2"
+
+    print(f"Player 1: {player1_name}")
+    print(f"Player 2: {player2_name}")
+
+    # Return an empty string as the placeholder for team details to maintain the function's structure
+    return ""
+
+
+def parse_battle_log(game_log):
+    # Initialize the main data structure
+    battle_data = {
+        "players": {},
+        "turns": [],
+        "winner": None
+    }
+
+    # Split the log into lines for processing
     lines = game_log.split("\n")
-    player_number = ""
-    for line in lines:
-        if f"|player|p1|{username}" in line or f"|player|p2|{username}" in line:
-            player_number = line.split("|")[2]
-            break
-    return [line.split("|")[3].split(",")[0] for line in lines if line.startswith(f"|poke|{player_number}|")]
 
-async def fetch_game_data(match_ids, username, max_attempts=10):
-    for match_id in match_ids[:max_attempts]:
-        game_log = await fetch_replay(match_id)
-        if game_log:
-            pkmn = extract_pokemon_by_username(game_log, username)
-            if pkmn:
-                return pkmn
-    return []  # Return empty if no valid matches found within attempts
+    # Process each line
+    for line in lines:
+        parts = line.split("|")
+
+        # Skip empty parts
+        if len(parts) < 2:
+            continue
+
+        action = parts[1]
+
+        # Player identification
+        if action == "player":
+            player_id, player_name = parts[2], parts[3]
+            battle_data["players"][player_id] = {"name": player_name, "team": []}
+
+        # Pokémon switch in (also captures initial team setup)
+        elif action == "switch":
+            player_id = parts[2].split(":")[0]
+            pokemon_name = parts[3].split(",")[0]
+            if pokemon_name not in battle_data["players"][player_id]["team"]:
+                battle_data["players"][player_id]["team"].append(pokemon_name)
+
+        # Turn-based actions
+        elif action == "turn":
+            turn_number = int(parts[2])
+            battle_data["turns"].append({"turn": turn_number, "actions": []})
+
+        # Actions within turns
+        elif action in ["move", "faint", "-ability", "-item", "-damage", "-heal", "-status"]:
+            if "turns" in battle_data and battle_data["turns"]:
+                battle_data["turns"][-1]["actions"].append(line)
+
+        # Battle outcome
+        elif action == "win":
+            winner_name = parts[2]
+            battle_data["winner"] = winner_name
+
+    return battle_data
+
 
 async def main():
-    ladder_data = await fetch_ladder('gen9ou')
-    print("cp1")
-    players = extract_players(ladder_data)
-    print("cp2")
-
-    all_teams = []
-
-    # Process a limited number of players to avoid overloading
-    for player in players[:100]:
-        print(player)
-        user_data = await fetch_match_history(player)
-        matches = extract_ids(user_data, define_format('gen9ou'))
-
-        for match_id in matches[:5]:
-            team = await fetch_game_data([match_id], player)
-            if team:
-                all_teams.append(team)
-
-    print("cp3")
-
-    # Write to CSV
-    with open('pokemon_teams.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        for team in all_teams:
-            writer.writerow(team)
+    games = range(1, 6)  # Match IDs from 1 to 5
+    for match_id in games:
+        await fetch_game_data(match_id)
 
 
 if __name__ == "__main__":
-    print("starting test")
+    matches = range(1, 6)  # Match IDs from 1 to 5
+    all_teams = []  # List to store all teams
+
+    print("============ STARTING TEST ============")
     asyncio.run(main())
-    print("finished test")
+    print("============ FINISHING TEST ============")
     exit()

@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adbdd68b-8b79-47d1-8c1a-ceaccae1d1ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pokemon_teams.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_replays.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokemon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrape.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon_teams.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon_teams.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +56,13 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;FastAPI.SDAssistant.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scrape.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jimmy/PycharmProjects/SDAssistant&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,6 +71,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jimmy\PycharmProjects\SDAssistant" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jimmy\PycharmProjects\SDAssistant" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SDAssistant" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
@@ -81,7 +99,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -101,18 +119,38 @@
       <workItem from="1706588244005" duration="2848000" />
       <workItem from="1706676694080" duration="6801000" />
       <workItem from="1707267833702" duration="643000" />
-      <workItem from="1708048805238" duration="4000" />
+      <workItem from="1708048805238" duration="23000" />
+      <workItem from="1708119216599" duration="40000" />
+      <workItem from="1709599141587" duration="1756000" />
+      <workItem from="1709744359772" duration="1548000" />
+      <workItem from="1709782499812" duration="2778000" />
+      <workItem from="1709921576181" duration="4975000" />
+      <workItem from="1710009045281" duration="37000" />
+      <workItem from="1710185309638" duration="12140000" />
+      <workItem from="1710267859859" duration="891000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SDAssistant$SDAssistant.coverage" NAME="SDAssistant Coverage Results" MODIFIED="1707267856955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/SDAssistant$test.coverage" NAME="test Coverage Results" MODIFIED="1707267870777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SDAssistant$SDAssistant.coverage" NAME="SDAssistant Coverage Results" MODIFIED="1710267884037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/SDAssistant$test.coverage" NAME="test Coverage Results" MODIFIED="1710267896853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SDAssistant$scrape.coverage" NAME="scrape Coverage Results" MODIFIED="1710267888038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
