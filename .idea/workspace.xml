@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adbdd68b-8b79-47d1-8c1a-ceaccae1d1ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/all_replays.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon_teams.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon_teams.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="adbdd68b-8b79-47d1-8c1a-ceaccae1d1ce" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +115,7 @@
       <workItem from="1710009045281" duration="37000" />
       <workItem from="1710185309638" duration="12140000" />
       <workItem from="1710267859859" duration="891000" />
+      <workItem from="1710605662983" duration="34000" />
     </task>
     <servers />
   </component>
