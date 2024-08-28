@@ -6,26 +6,29 @@ selected_format = 'gen3ou'
 
 
 async def fetch_game_data(match_number):
-    file_name = f"replay_{match_number:02d}.txt"  # Format the match number properly
-    with open(file_name, 'r') as file:
-        game_log = file.read()  # Read the entire file at once
+    file_name = f"replay_{match_number:02d}.txt"
+    try:
+        with open(file_name, 'r') as file:
+            game_log = file.read()
 
-    username = extract_username(game_log)
-    parse_battle_log(game_log)
+        username = extract_username(game_log)
+        if username:
+            team_details = extract_pokemon2(game_log, username)  # This returns a list of Pokémon names
+            pokemons = [
+                Pokemon(
+                    name=pkmn,  # Since team_details contains Pokémon names
+                    ability='Unknown',  # Default value since details aren't available
+                    item='None',  # Default value since details aren't available
+                    moveset=[]  # Default empty moveset
+                ) for pkmn in team_details
+            ]
+            team = Team(username, pokemons)
+            print(team)
+            return team
 
-    # if username:
-    #     team_details = extract_pokemon(game_log, username)
-    #     pokemons = [
-    #         Pokemon(
-    #             name=pkmn['name'],
-    #             ability=pkmn.get('ability', 'Unknown'),
-    #             item=pkmn.get('item', 'None'),
-    #             moveset=pkmn['moveset']
-    #         ) for pkmn in team_details
-    #     ]
-    #     team = Team(username, pokemons)
-    #     print(team)
-    #     return team
+    except FileNotFoundError:
+        print(f"File {file_name} not found.")
+        return None
 
 
 def extract_username(log):
@@ -36,13 +39,24 @@ def extract_username(log):
 
 def extract_pokemon2(game_log, username):
     player_names = []
+    player_teams = {"p1": [], "p2": []}
 
     for line in game_log.split("\n"):
-        if "|player|" in line:
-            parts = line.split("|")
-            if len(parts) >= 4:
-                # Append player name to the list
-                player_names.append(parts[3])
+        parts = line.split("|")
+        if len(parts) < 2:
+            continue
+
+        action = parts[1]
+
+        if action == "player":
+            player_id, player_name = parts[2], parts[3]
+            player_names.append(player_name)
+
+        elif action in ["switch", "drag"]:
+            player_id = parts[2][:2]  # Get 'p1' or 'p2'
+            pokemon_name = parts[3].split(",")[0]
+            if pokemon_name not in player_teams[player_id]:
+                player_teams[player_id].append(pokemon_name)
 
     # Ensure we have either one or two player names captured
     player1_name = player_names[0] if len(player_names) > 0 else "Unknown Player 1"
@@ -51,8 +65,22 @@ def extract_pokemon2(game_log, username):
     print(f"Player 1: {player1_name}")
     print(f"Player 2: {player2_name}")
 
-    # Return an empty string as the placeholder for team details to maintain the function's structure
-    return ""
+    # Identify the username's player ID (p1 or p2)
+    user_player_id = None
+    if username == player1_name:
+        user_player_id = "p1"
+    elif username == player2_name:
+        user_player_id = "p2"
+
+    if user_player_id:
+        user_team = player_teams[user_player_id]
+        print(f"Player: {username}")
+        print(f"Pokemons: {', '.join(user_team)}")
+    else:
+        print(f"Player: {username}")
+        print(f"Pokemons: Not found")
+
+    return player_teams.get(user_player_id, [])
 
 
 def parse_battle_log(game_log):
@@ -83,7 +111,7 @@ def parse_battle_log(game_log):
 
         # Pokémon switch in (also captures initial team setup)
         elif action == "switch":
-            player_id = parts[2].split(":")[0]
+            player_id = parts[2][:2]  # Get the main player ID ('p1' or 'p2')
             pokemon_name = parts[3].split(",")[0]
             if pokemon_name not in battle_data["players"][player_id]["team"]:
                 battle_data["players"][player_id]["team"].append(pokemon_name)
@@ -95,7 +123,7 @@ def parse_battle_log(game_log):
 
         # Actions within turns
         elif action in ["move", "faint", "-ability", "-item", "-damage", "-heal", "-status"]:
-            if "turns" in battle_data and battle_data["turns"]:
+            if battle_data["turns"]:
                 battle_data["turns"][-1]["actions"].append(line)
 
         # Battle outcome

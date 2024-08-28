@@ -149,7 +149,7 @@ async def main():
         user_data = await fetch_match_history(player)
         matches = extract_ids(user_data, define_format(selected_format))
 
-        team = await fetch_game_data(matches, player, 10)  # Get at most 5 matches
+        team = await fetch_game_data(matches, player, 10)
         if team:
             all_teams.append(team)
             print(team)  # Display the team

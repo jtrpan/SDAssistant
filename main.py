@@ -39,7 +39,7 @@ async def team_suggestions(team: List[str]):
     return {"suggestions": detailed_suggestions}
 
 
-async def fetch_pokemon_data(pokemon_name: str):
+async def fetch_pokemon_data(pokemon_name: str) -> dict:
     # Wait for the rate limiter before proceeding.
     await limiter.acquire()
     url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name.lower()}"
@@ -63,7 +63,7 @@ async def fetch_ladder(formatName: str):
         if response.status_code == 200:
             return response.json()
         else:
-            # It's a good practice to handle errors such as rate limits from the external API as well.
+            # Handle errors such as rate limits from the external API
             if response.status_code == 429:
                 raise HTTPException(status_code=429, detail="Rate limit exceeded")
             return None
